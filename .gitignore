@@ -1,0 +1,11 @@
+# trash
+**/**/.DS_Store
+
+# zsh
+**/**/*.zwc
+
+# Hhomebrew
+Brewfile.lock.json
+
+# neovim
+**/**/lazy-lock.json

@@ -1,0 +1,10 @@
+-f bestvideo+bestaudio
+-o %(title)s.%(ext)s
+--embed-thumbnail
+--embed-metadata
+--embed-info-json
+--embed-subs
+--sub-langs en
+--merge-output-format mp4
+--default-search ytsearch
+--sponsorblock-mark all

@@ -1,0 +1,4 @@
+theme "dracula"
+on_force_close "quit"
+default_layout "compact"
+copy_command: "wl-copy"

@@ -1,0 +1,8 @@
+[tools]
+go = "1"
+python = "3"
+usage = "latest"
+rust = "latest"
+lua = "5.1"
+node = "lts"
+uv = "latest"
