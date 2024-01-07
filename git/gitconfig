@@ -1,0 +1,48 @@
+[user]
+	name = Marco Campos
+	email = marco@marcocampos.net
+	signingkey = ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAINrrtJd+Fx+EZFFkJlhmX+WMcLAWMW7u2ZN20dI/LkEw
+
+[commit]
+  gpgsign = true
+
+[gpg]
+  format = ssh
+
+[push]
+	default = simple
+
+[pull]
+	rebase = false
+
+[rerere]
+	enabled = 1
+
+[github]
+	user = marcocampos
+
+[core]
+	excludesfile = ~/.gitignore_global
+
+[merge]
+	conflictstyle = diff3
+
+[diff]
+	colorMoved = default
+
+[merge]
+	ff = only
+
+[fetch]
+	prune = true
+
+[init]
+	defaultBranch = main
+
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[gpg "ssh"]
+	program = /Applications/1Password.app/Contents/MacOS/op-ssh-sign

@@ -1,0 +1,20 @@
+# trash
+.DS_Store
+*.tmp
+
+# ides
+.idea/
+.vscode/
+
+# python
+*.py[cod]
+*.egg-info/
+__pycache__/
+.python-version
+
+# direnv
+.direnv/
+.envrc
+
+# asdf
+.tool-versions

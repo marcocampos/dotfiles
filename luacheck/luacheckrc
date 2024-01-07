@@ -1,0 +1,9 @@
+std = "min"
+
+globals = {
+		'vim'
+}
+
+files[".luacheckrc"].ignore = { "111", "112", "131" }
+
+cache = true

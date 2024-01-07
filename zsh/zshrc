@@ -1,0 +1,25 @@
+# vi: filetype=zsh
+
+# homebrew
+eval "$(/opt/homebrew/bin/brew shellenv)"
+
+ZSH__CONFIG__DIR="${HOME}/.zsh"
+
+ZSH__CONFIG__FILES=(
+	"environment.zsh"
+	"prompt.zsh"
+	"plugins.zsh"
+	"aliases.zsh"
+	"settings.zsh"
+	"completions.zsh"
+	"functions.zsh"
+)
+
+if [ -d "${ZSH__CONFIG__DIR}" ]; then
+	for f in "${ZSH__CONFIG__FILES[@]}"; do
+		source "${ZSH__CONFIG__DIR}/$f"
+	done
+else
+	echo "ERROR: zsh config directory not found."
+	exit 1
+fi

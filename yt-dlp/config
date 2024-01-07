@@ -1,0 +1,9 @@
+-o %(title)s.%(ext)s
+--embed-thumbnail
+--embed-metadata
+--embed-info-json
+--embed-subs
+--sub-langs en
+--merge-output-format mkv
+--default-search ytsearch
+--sponsorblock-mark all

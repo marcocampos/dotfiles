@@ -1,0 +1,5 @@
+classic: false
+color:
+  when: auto
+sorting:
+  dir-grouping: first
