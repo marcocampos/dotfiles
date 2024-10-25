@@ -25,7 +25,8 @@ cd ~/.dotfiles
 brew bundle
 ```
 
-**NOTE**: You might be prompted for your user password during installation of some packages/applications.
+**NOTE**: You might be prompted for your user password during installation of some
+packages/applications.
 
 Finally, adopt all configuration files using Stow:
 
@@ -37,4 +38,5 @@ stow --adopt -v */
 In order to load all configuration restart your shell or terminal application.
 
 ---
+
 Happy Hacking!
